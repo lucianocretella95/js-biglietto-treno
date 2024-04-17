@@ -4,8 +4,8 @@ console.log(km);
 let age = prompt ("età passeggero");
 console.log(age);
 let prezzo = km * 0.21;
-let sconto20 = (0.21*20)/100;
-let sconto40 = (0.21*40)/100;
+let sconto20 = (0.21 * 20) / 100;
+let sconto40 = (0.21 * 40) / 100;
 if (age < 18) {
     prezzo = prezzo - sconto20;
   } else if (age >= 65) {
