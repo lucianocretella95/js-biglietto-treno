@@ -10,7 +10,7 @@ if (age < 18) {
     prezzo = prezzo - sconto20;
   } else if (age >= 65) {
     prezzo = prezzo - sconto40;
-  } else {
-    alert("nessuno sconto");
+  // } else {
+  //   alert("nessuno sconto");
   }
 document.getElementById("standard").innerText= `il tuo biglietto costa: ${prezzo}`;
